@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Marketing]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Marketing_CRM(failed)" verbose="0">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.metlife.testSuite.MarketingCRM">
+        <methods>
+          <include name="Lead_infomation_Page"/>
+          <include name="Opp_vali"/>
+          <include name="contact_delete"/>
+          <include name="Delete_leads"/>
+          <include name="Click_onMainLeads"/>
+          <include name="Click_onMyOpp"/>
+          <include name="opp_delete"/>
+          <include name="LogOut"/>
+          <include name="Click_on_NewContect"/>
+          <include name="Contect_formError_velidation"/>
+          <include name="opp_form"/>
+          <include name="App_launcher"/>
+          <include name="click_on_MainContect_"/>
+          <include name="Contect_form"/>
+          <include name="Opportunity_Dropdown"/>
+          <include name="Teardown"/>
+          <include name="Click_NewLead_Drpodown"/>
+          <include name="loginWithValid" invocation-numbers="0"/>
+          <include name="Click_on_contactDropdown"/>
+          <include name="setup"/>
+          <include name="Opp_formErrorVali"/>
+          <include name="click_on_WithoutEnterDetails"/>
+          <include name="Click_on_LeadInformation"/>
+          <include name="MarketingCRM"/>
+        </methods>
+      </class> <!-- com.metlife.testSuite.MarketingCRM -->
+    </classes>
+  </test> <!-- Marketing_CRM(failed) -->
+</suite> <!-- Failed suite [Marketing] -->
