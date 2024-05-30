@@ -27,7 +27,7 @@ public class MarketingCRM extends SetupTeardown {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
-        test = extent.startTest("Markating CEM", "   Login Test Pass");
+        test = extent.startTest("Markating CEM", "   Login Test Pass test2");
         test.log(LogStatus.PASS, "Marketing CEM", "Login pass");
     }
 
