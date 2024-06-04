@@ -19,6 +19,7 @@ WebDriver driver;
         webdriverUtiles.type(SelectCity.From,"Jaipur");
         webdriverUtiles.selectValuefromDropdown(SelectCity.Fromdropdown,"Jaipur Airport");
 
+
         System.out.println("TestCase1");
         System.out.println("TestCase2");
         System.out.println("TestCase3");
@@ -27,6 +28,7 @@ WebDriver driver;
         System.out.println("CherryPick");
 
         System.out.println("CherryPick1");
+
 
 
 
