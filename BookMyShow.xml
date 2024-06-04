@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Booking">
+    <test name="goibibo">
+        <parameter name="browser" value="chrome"></parameter>
+        <packages>
+            <package name="com.metlife.testsuite"></package>
+        </packages>
+    </test>
+</suite>
